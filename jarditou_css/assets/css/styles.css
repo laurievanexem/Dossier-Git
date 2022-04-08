@@ -1,0 +1,244 @@
+body
+{
+    font-size: 1.1rem;
+    font-family: 'new roman';
+}
+
+
+
+/*CSS mobile*/
+@media screen and (max-width: 768px)
+{
+    .post
+    {
+        position: relative;
+        max-width: 100%;
+        width: 80%;
+    }
+.menupc li
+    {
+        display: block;
+    }
+    
+
+    .banner 
+    {
+        height: 70px;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-image: url('../../../src/img/promotion.jpg');
+        background-size: cover;
+        -webkit-background-size: cover;
+    }
+    .sidebar
+    {
+        display: none;
+    }
+
+    .sidebar2
+    {
+        display: none;
+    }
+
+    .sidebar3
+    {
+        display: none;
+    }
+    
+
+}
+
+
+
+/*CSS pc*/
+@media screen and (min-width: 768px)
+{
+    .menupc li
+    {
+        display: inline;
+        list-style: none;
+    }
+
+    .menuphone
+    {
+        display: inline;
+        list-style: none;
+    }
+
+    .menuphone li
+    {
+        display: inline;
+    }
+
+    .banner 
+    {
+        height: 350px;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-image: url('../../../src/img/promotion.jpg');
+        background-size: cover;
+        -webkit-background-size: cover;
+    }
+
+    body
+    {
+        font-size: 1.2rem;
+        font-family: 'new roman';
+    }    
+
+    .post
+    {
+        position: relative;
+        width: 100%;
+    }
+}
+
+
+/*CSS global*/
+.sidebar
+{
+    float: right;
+    margin-top: -536px;
+    position: relative;
+    bottom: 50%;
+    padding-left: 4px;
+    width: 20%;
+    background-color: gray;
+    color: transparent;
+    border: 1px transparent;
+}
+
+.sidebar2
+{
+    float: right;
+    margin-top: -642px;
+    position: relative;
+    bottom: 50%;
+    padding-left: 4px;
+    width: 20%;
+    background-color: gray;
+    color: transparent;
+    border: 1px transparent;
+}
+
+.sidebar3
+{
+    float: right;
+    margin-top: -660px;
+    position: relative;
+    bottom: 50%;
+    padding-left: 4px;
+    width: 20%;
+    background-color: gray;
+    color: transparent;
+    border: 1px transparent;
+}
+
+.sidebar h2
+{
+    font-size: 22px;
+}
+
+.sidebar aside
+{
+    padding: 11px 11px;
+}
+
+.logo 
+{
+    height: 120px;
+    width: 100%;
+}
+
+.picturelogo 
+{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.promo
+{
+    width: 270px;
+}
+
+.titresite
+{
+    width: 50%;
+    position: relative;
+    padding-top: 14px;
+    font-size: 28px;
+    margin-left: 40%
+}
+
+nav
+{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 13px 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+nav a:hover
+{
+    color: rgb(241, 9, 9);
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: rgb(241, 9, 9);
+}
+
+a:visited
+{
+    color: grey;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+    .container
+{
+    display: inline;
+    max-width: 100%;
+    margin: 2px 2px;
+}
+
+.pied nav
+{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 13px 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+menu li
+{
+    display: inline;
+    list-style: none;
+}
+
+
+table, tr, td, th
+{
+    border: 1px solid #000000;
+}
+
+.imgtd
+{
+    width: 100px;
+}
